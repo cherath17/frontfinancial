@@ -1,0 +1,18 @@
+.login_component {
+  background: #fff;
+}
+.welcome_layout p {
+  @apply text-base leading-6 text-[#0d141c] pb-6;
+}
+form p {
+  @apply text-left text-base font-medium leading-6 pb-2;
+}
+.password_input {
+  @apply pt-3;
+}
+.password_outline {
+  @apply relative;
+}
+.forget_password a {
+  @apply text-sm font-normal leading-[21px] text-[#4f7396] no-underline pt-1;
+}

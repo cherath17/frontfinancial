@@ -1,0 +1,20 @@
+/* Common Styles */
+.header {
+  text-align: left;
+  padding: 16px 32px 0;
+  border-bottom: 1px solid #e5e8eb;
+}
+
+.welcome_layout {
+  @apply pt-[60px];
+
+  h2 {
+    @apply text-[22px] font-bold leading-[27.5px] pb-[15px];
+  }
+}
+
+.password_outline {
+  img {
+    @apply absolute w-4 cursor-pointer right-4 top-5;
+  }
+}
